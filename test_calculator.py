@@ -22,4 +22,3 @@ def test_divide():
     assert divide(9, 3) == 3.0
     with pytest.raises(ValueError, match="Cannot divide by zero"):
         divide(10, 0)
-        divide(0, 0)
