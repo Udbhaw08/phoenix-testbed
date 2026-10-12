@@ -6,12 +6,10 @@ def test_add():
     assert add(-1, 1) == 0
     assert add(0, 0) == 0
 
-
 def test_subtract():
     assert subtract(10, 4) == 6
     assert subtract(5, 5) == 0
     assert subtract(-2, -3) == 1
-
 
 def test_multiply():
     assert multiply(3, 4) == 12
@@ -24,3 +22,4 @@ def test_divide():
     assert divide(9, 3) == 3.0
     with pytest.raises(ValueError, match="Cannot divide by zero"):
         divide(10, 0)
+        divide(0, 0)
