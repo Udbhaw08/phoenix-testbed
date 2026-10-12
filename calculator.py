@@ -14,7 +14,7 @@ def subtract(a: int, b: int) -> int:
 
 def multiply(a: int, b: int) -> int:
     # BUG: Deliberate addition instead of multiplication
-    return a * b
+    return a * b  # Fixed logic
 
 
 def divide(a: int, b: int) -> float:
