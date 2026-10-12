@@ -4,7 +4,7 @@ Basic calculator module with deliberate logic bugs for CI/CD healing testing.
 
 def add(a: int, b: int) -> int:
     # BUG: Deliberate subtraction instead of addition
-    return a + b
+    return a + b  # Fixed logic
 
 
 def subtract(a: int, b: int) -> int:
